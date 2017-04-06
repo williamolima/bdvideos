@@ -1,0 +1,114 @@
+body {
+	background-color: #E8E8E8;
+}
+/*----------------RESPONSIVIDADE-----------------*/
+@media (max-width: 1200px){
+	p.texto {
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+}
+/*----------------MAIN-----------------*/
+
+main {
+	padding-top: 70px;
+	background-color: #fff;
+	padding-right: 10px;
+	padding-left: 20px;
+	height: 100%;
+}
+
+
+p.texto {
+	line-height:25px;
+	padding-left: 180px;
+	padding-right: 180px;
+	font-style: italic;
+	text-align: center;
+}
+
+p.title {
+	font-size: 50px;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: left;
+	margin: 40px 0px;
+}
+
+p.texto-top {
+	padding-top: 30px;
+}
+
+p.video {
+	text-align: center;
+}
+
+p.f-letter:first-letter{
+	font-variant: bold;
+	font-size: 50px;
+}
+
+hr.sections{
+	width: 70%;
+	margin-top: 50px;
+}
+
+/*----------------SECTIONS-----------------*/
+
+div.sections-sobre{
+	padding-bottom: 50px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+main section.sobre{
+    width: 280px;
+    display: inline-block;
+    height: 250px;
+    margin: 10px;
+    transition-duration: 0.4s;
+    padding-top: 0px;
+    box-shadow: none;
+    text-align: center;
+
+}
+
+main section.sobre:hover{
+    transform: scale(1.1,1.1);
+}
+
+section div.perfil1{
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-image: url(../img/william.jpeg)
+}
+
+section div.perfil2{
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-image: url(../img/leo.jpeg)
+}
+
+section.sobre div.p{
+	text-align: center;
+}
+
+section.sobre div.p p{
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Kaushan Script', sans-serif;
+}
+
+h3{
+	text-align: center;
+}

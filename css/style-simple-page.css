@@ -1,0 +1,39 @@
+main {
+	padding-top: 30px;
+	background-color: #fff;
+	padding-right: 10px;
+	padding-left: 20px;
+	height: 100%;
+}
+
+body {
+	background-color: #E8E8E8;
+}
+
+p {
+	line-height:25px;
+}
+
+p.title {
+	padding-top: 50px;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: left;
+}
+
+p.video {
+	text-align: center;
+}
+
+p.f-letter:first-letter{
+	font-variant: bold;
+	font-size: 50px;
+}
+
+/*--------------RESPONSIVIDADE-------------*/
+@media (max-width: 1050px){
+	p.title {
+		line-height: 50px;
+	}
+}

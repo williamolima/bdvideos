@@ -1,0 +1,97 @@
+@charset "UTF-8"
+
+form{
+	width: 500px;
+	margin: auto;
+}
+input, textarea{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255, 255, 255, .5);
+
+}
+textarea{
+	background-color: rgba(255, 255, 255, .3);
+	
+}
+input:hover, textarea:hover{
+	background-color: #dddddd;
+}
+legend{
+	color: #888888;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif;
+}
+fieldset{
+	border-color: #cecece;
+	margin: 20px;
+	text-align: justify;
+}
+fieldset#sexo{
+	width: 150px;
+}
+fieldset#user{
+	background: url("../img/contato-icone.png") no-repeat 95% 80%;
+}
+fieldset#endereco{
+	background: url("../img/localseoservices.png") no-repeat 95% 80%;
+}
+fieldset#msg{
+	background: url("../img/msg4.png") no-repeat 95% 80%;
+}
+
+@media (max-width: 1127px){
+	fieldset#user{
+		background: none;
+	}
+	fieldset#endereco{
+		background: none;
+	}
+	input, textarea{
+		width: 100%;
+	}
+	fieldset#msg{
+		background: url("../img/msg4.png") no-repeat 90% 85%;
+	}
+}
+
+main {
+	padding-top: 30px;
+	background-color: #fff;
+	padding-right: 10px;
+	padding-left: 20px;
+	height: 100%;
+	width: 60%;
+}
+
+body {
+	background-color: #E8E8E8;
+}
+
+.botao{
+	 background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     border: 1px solid #CCCCCE;
+     border-radius: 3px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),0 2px 7px rgba(0, 0, 0, 0.2);
+     color: #616165;
+     display: block;
+     font-family: "Trebuchet MS";
+     font-size: 14px;
+     font-weight: bold;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position: relative;
+     width: 80px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
